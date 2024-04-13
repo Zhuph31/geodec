@@ -1,10 +1,9 @@
 # GeoDec: Enhancing Blockchain Resilience through Geospatial Validator Distribution
 
-GeoDec aims to address the geographic concentration of validator nodes in existing blockchain networks, particularly in the context of PoS consensus mechanisms. The project involves the development of an emulator to analyze geospatial distribution, the design of a geospatial-aware proposer selection mechanism, and the deployment of the revised protocol for evaluation.
+GeoDec aims to address the geographic concentration of validator nodes in existing blockchain networks, particularly in the context of PoS consensus mechanisms. The project involves the development of an emulator to analyze geospatial distribution, the design of a geospatial-aware proposer selection mechanism, and deploying the revised protocol for evaluation.
 
 This repo is a fork of the original repo, served solely for the purpose of benchmarking cometbft performance.
 
-## Usage
 ### Requirement
 The use of this repo requires the installation of https://www.fabfile.org/index.html#welcome-to-fabric.
 
@@ -15,7 +14,6 @@ To test cometbft performance using your own machines, settings, and cometbft cod
 3. settings.json: This JSON file contains the configuration for geodec. Modify the repo section to use your own cometbft code.
 
 After modifying the required configuration, run ```fab remote cometbft``` to start the benchmark.
-
 
 ### References
 - Motepalli, Shashank, and Hans-Arno Jacobsen. "Analyzing Geospatial Distribution in Blockchains." arXiv preprint arXiv:2305.17771 (2023).
